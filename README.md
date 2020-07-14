@@ -5,12 +5,6 @@
 ## Project Intro
 The purpose of this project is to build a machine learning model that can predict whether patients will miss their medical appointments. 
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
-
 ### Technologies
 * Python
 * Pandas, Numpy, Seaborn, Matplotlib, Sk-learn
