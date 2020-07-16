@@ -44,7 +44,7 @@ Training and predicting the model using XGBoost with its default parameters prod
 
 To handle the imbalanced dataset, I upsampled the minority class to match the same value count as the majority class and then trained the model on the upsampled data. The recall score on upsampled model has greatly improved but the precision score seems to have dipped lower. 
 
-## Optimizing Hyperparameters
+### Optimizing Hyperparameters
 I am currently using grid search to find the best parameters for the model.
 
-Next, I plan to use feature selection to remove unnecessary columns in hopes of improving the model. I will create a new dataframe consisting of only the top selected features, upsample the minority class, train on the upsampled data, and then evaluate.
+Next, I plan to use feature selection to remove unnecessary columns in hopes of improving the model. So far, the model looks like it is overfitting to the train data since the score on the test data is noticeably lower. I will create a new dataframe consisting of only the top selected features, upsample the minority class, train on the upsampled data, and then evaluate.
