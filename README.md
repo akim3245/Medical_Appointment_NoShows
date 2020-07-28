@@ -35,7 +35,7 @@ Dataset contains the following features:
 ### Feature Engineering
 ScheduledDay and AppointmentDay was split into separate columns as Month, Day, and Day of the Week. 
 
-A new column, 'WaitingDays' was created to represent the number of total days until the appointment date from the initially scheduled date. 
+A new column, 'WaitingDays' was created to represent the number of total days between the appointment date and the scheduled date. 
 
 ### Model Building
 K-folds cross validation was performed on Random Forest, Logistic Regression, Decision Tree and XGBoost for model selection and XGBoost which produced the highest cross val roc_auc score of 0.73 was ultimately selected.
